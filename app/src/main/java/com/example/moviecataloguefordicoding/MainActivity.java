@@ -38,13 +38,9 @@ public class MainActivity extends AppCompatActivity  {
                 Intent intent = new Intent(MainActivity.this,DetailFilmActivity.class);
                 intent.putExtra("EXTRA_FILM",films.get(position));
                 startActivity(intent);
-
-
-
             }
         });
     }
-
     private void addItem(){
         films = new ArrayList<ModelFilm>();
         for (int i = 0; i < dataJudul.length; i++) {
