@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailFilmActivity"
+    >
+    <ImageView
+        android:id="@+id/iv_detail_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:padding="16dp">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corner_putih">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/round_corner_putih">
+
+                <ImageView
+                    android:id="@+id/iv_photo_recived"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/poster_venom" />
+                <TextView
+                    android:id="@+id/tv_judul_diterima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ini detil film"
+                    android:textAllCaps="true"
+                    android:textSize="32sp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_marginTop="10dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tv_deskripsi_diterima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ini detil film"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+
+            </ScrollView>
+        </FrameLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
