@@ -3,17 +3,28 @@ package com.example.moviecataloguefordicoding.Model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+public class ModelTvSHow implements Parcelable {
+    private String judul,deskripsi,genre,durasi, studio,rating,namaPemeran;
+    private int foto,pemeran;
 
-public class ModelFilm implements Parcelable {
-    private String judul;
-    private String deskripsi;
-    private String genre;
-    private String durasi;
-    private String studio;
-    private String rating;
-    private int foto;
+    public ModelTvSHow() {
+    }
+
+    public String getJudul() {
+        return judul;
+    }
+
+    public void setJudul(String judul) {
+        this.judul = judul;
+    }
+
+    public String getDeskripsi() {
+        return deskripsi;
+    }
+
+    public void setDeskripsi(String deskripsi) {
+        this.deskripsi = deskripsi;
+    }
 
     public String getGenre() {
         return genre;
@@ -47,27 +58,12 @@ public class ModelFilm implements Parcelable {
         this.rating = rating;
     }
 
-
-
-
-
-
-
-
-    public String getJudul() {
-        return judul;
+    public String getNamaPemeran() {
+        return namaPemeran;
     }
 
-    public void setJudul(String judul) {
-        this.judul = judul;
-    }
-
-    public String getDeskripsi() {
-        return deskripsi;
-    }
-
-    public void setDeskripsi(String deskripsi) {
-        this.deskripsi = deskripsi;
+    public void setNamaPemeran(String namaPemeran) {
+        this.namaPemeran = namaPemeran;
     }
 
     public int getFoto() {
@@ -78,8 +74,12 @@ public class ModelFilm implements Parcelable {
         this.foto = foto;
     }
 
+    public int getPemeran() {
+        return pemeran;
+    }
 
-    public ModelFilm() {
+    public void setPemeran(int pemeran) {
+        this.pemeran = pemeran;
     }
 
     @Override
@@ -95,28 +95,32 @@ public class ModelFilm implements Parcelable {
         dest.writeString(this.durasi);
         dest.writeString(this.studio);
         dest.writeString(this.rating);
+        dest.writeString(this.namaPemeran);
         dest.writeInt(this.foto);
+        dest.writeInt(this.pemeran);
     }
 
-    protected ModelFilm(Parcel in) {
+    protected ModelTvSHow(Parcel in) {
         this.judul = in.readString();
         this.deskripsi = in.readString();
         this.genre = in.readString();
         this.durasi = in.readString();
         this.studio = in.readString();
         this.rating = in.readString();
+        this.namaPemeran = in.readString();
         this.foto = in.readInt();
+        this.pemeran = in.readInt();
     }
 
-    public static final Creator<ModelFilm> CREATOR = new Creator<ModelFilm>() {
+    public static final Parcelable.Creator<ModelTvSHow> CREATOR = new Parcelable.Creator<ModelTvSHow>() {
         @Override
-        public ModelFilm createFromParcel(Parcel source) {
-            return new ModelFilm(source);
+        public ModelTvSHow createFromParcel(Parcel source) {
+            return new ModelTvSHow(source);
         }
 
         @Override
-        public ModelFilm[] newArray(int size) {
-            return new ModelFilm[size];
+        public ModelTvSHow[] newArray(int size) {
+            return new ModelTvSHow[size];
         }
     };
 }

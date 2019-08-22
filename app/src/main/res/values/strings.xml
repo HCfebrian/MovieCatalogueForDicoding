@@ -2,8 +2,9 @@
     <string name="app_name">MovieCatalogueForDicoding</string>
     <string name="judul">judul</string>
     <string name="deskripsi">deskripsi</string>
-    <string-array name="array_judul">
 
+    <!--MovieFragment Data-->
+    <string-array name="array_title">
         <item>A Star Is Born</item>
         <item>Aquaman</item>
         <item>Avenger Infinity War</item>
@@ -25,15 +26,105 @@
         <item>The Mule</item>
         <item>Venom</item>
     </string-array>
-    <string-array name="array_deskripsi">
 
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem et expedita libero mollitia neque nihil odio quo vitae. Aperiam beatae deserunt facere laborum minus nisi tempore unde vitae voluptas.</item>
+    <string-array name="array_genre">
+        <item>Romance</item>
+        <item>Action, Superhero</item>
+        <item>Action, Superhero</item>
+        <item>Thriller</item>
+        <item>Music</item>
+        <item>Action</item>
+        <item>Action, Material Art</item>
+        <item>Action, Superhero</item>
+        <item>Fantasy</item>
+        <item>Fantasy</item>
+        <item>Drama</item>
+        <item>Thriller</item>
+        <item>Drama</item>
+        <item>Drama</item>
+        <item>Comedy</item>
+        <item>Action</item>
+        <item>Action, Superhero</item>
+        <item>Drama</item>
+        <item>Drama</item>
+        <item>Thriller, Action</item>
+    </string-array>
+
+    <string-array name="array_duration">
+        <item>120 min</item>
+        <item>140 min</item>
+        <item>180 min</item>
+        <item>120 min</item>
+        <item>120 min</item>
+        <item>120 min</item>
+        <item>120 min</item>
+        <item>110 min</item>
+        <item>90 min</item>
+        <item>90 min</item>
+        <item>120 min</item>
+        <item>120 min</item>
+        <item>130 min</item>
+        <item>130 min</item>
+        <item>90 min</item>
+        <item>120 min</item>
+        <item>120 min</item>
+        <item>120 min</item>
+        <item>120 min</item>
+        <item>120 min</item>
+    </string-array>
+
+    <string-array name="array_studio">
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+        <item>Sony Studio</item>
+        <item>21 Century</item>
+    </string-array>
+
+    <string-array name="array_rating">
+        <item>A</item>
+        <item>E</item>
+        <item>E</item>
+        <item>A</item>
+        <item>PG</item>
+        <item>E</item>
+        <item>PG</item>
+        <item>A</item>
+        <item>E</item>
+        <item>E</item>
+        <item>PG</item>
+        <item>A</item>
+        <item>E</item>
+        <item>PG</item>
+        <item>E</item>
+        <item>E</item>
+        <item>E</item>
+        <item>PG</item>
+        <item>PG</item>
+        <item>A</item>
+    </string-array>
+
+
+    <string-array name="array_description">
+        <item>Hunter X Hunter (dibaca: Hunter hunter) adalah adaptasi anime dari komik berjudul sama karya dari Mashiro Togashi. Pencipta dan sekaligus suami dari mangaka pencipta sailor moon itu dikenal dengan keahliannya dalam hal hiatus, </item>
         <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm.With a vast army at his disposal,Orm plans to conquer the remaining oceanic people and then the surface world.</item>
         <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fugit labore quia, quibusdam quisquam repellendus tenetur? Cum doloremque eum fuga harum impedit, in inventore suscipit! Architecto consectetur enim odio repellat.</item>
         <item>Raden Mas Soewardi Soerjaningrat (EBI: Suwardi Suryaningrat, sejak 1922 menjadi Ki Hadjar Dewantara, EBI: Ki Hajar Dewantara, beberapa menuliskan bunyi bahasa Jawanya dengan Ki Hajar Dewantoro; lahir di Pakualaman, 2 Mei 1889 – meninggal di Yogyakarta, 26 April 1959 pada umur 69 tahun; selanjutnya disingkat sebagai "Soewardi" atau "KHD") adalah aktivis pergerakan kemerdekaan Indonesia, kolumnis, politisi, dan pelopor pendidikan bagi kaum pribumi Indonesia dari zaman penjajahan Belanda. Ia adalah pendiri Perguruan Taman Siswa, suatu lembaga pendidikan yang memberikan kesempatan bagi para pribumi untuk bisa memperoleh hak pendidikan seperti halnya para priyayi maupun orang-orang Belanda.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae, doloribus ducimus error eveniet explicabo facere harum natus perspiciatis possimus quasi quia quisquam quo ratione rerum saepe soluta suscipit tempora.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores at aut distinctio dolores explicabo laborum nam natus nemo non optio provident, quae quas, quo quos suscipit veritatis voluptate voluptatem?</item>
         <item>Dr.(H.C.) Ir. H. Soekarno (ER, EYD: Sukarno, nama lahir: Koesno Sosrodihardjo) (lahir di Surabaya, Jawa Timur, 6 Juni 1901 – meninggal di Jakarta, 21 Juni 1970 pada umur 69 tahun) adalah Presiden pertama Republik Indonesia yang menjabat pada periode 1945–1967. Ia memainkan peranan penting dalam memerdekakan bangsa Indonesia dari penjajahan Belanda. Ia adalah Proklamator Kemerdekaan Indonesia (bersama dengan Mohammad Hatta) yang terjadi pada tanggal 17 Agustus 1945. Soekarno adalah yang pertama kali mencetuskan konsep mengenai Pancasila sebagai dasar negara Indonesia dan ia sendiri yang menamainya.</item>
         <item>Prof. Mr. Dr. Soepomo (Ejaan Soewandi: Supomo; lahir di Sukoharjo, Jawa Tengah, 22 Januari 1903 – meninggal di Jakarta, 12 September 1958 pada umur 55 tahun) adalah seorang pahlawan nasional Indonesia. Soepomo dikenal sebagai arsitek Undang-undang Dasar 1945, bersama dengan Muhammad Yamin dan Soekarno.</item>
         <item>Tan Malaka atau Ibrahim gelar Datuk Sutan Malaka (lahir di Nagari Pandam Gadang, Suliki, Lima Puluh Kota, Sumatera Barat, 2 Juni 1897 – meninggal di Desa Selopanggung, Kediri, Jawa Timur, 21 Februari 1949 pada umur 51 tahun) adalah seorang pembela kemerdekaan Indonesia, tokoh Partai Komunis Indonesia, juga pendiri Partai Murba, dan merupakan salah satu Pahlawan Nasional Indonesia.</item>
@@ -41,14 +132,18 @@
         <item>Jenderal TNI Anumerta Ahmad Yani (juga dieja Achmad Yani; lahir di Purworejo, Jawa Tengah, 19 Juni 1922 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 43 tahun) adalah komandan Tentara Nasional Indonesia Angkatan Darat, dan dibunuh oleh anggota Gerakan 30 September saat mencoba untuk menculik dia dari rumahnya.</item>
         <item>Sutomo (lahir di Surabaya, Jawa Timur, 3 Oktober 1920 – meninggal di Padang Arafah, Arab Saudi, 7 Oktober 1981 pada umur 61 tahun) lebih dikenal dengan sapaan akrab oleh rakyat sebagai Bung Tomo, adalah pahlawan yang terkenal karena peranannya dalam membangkitkan semangat rakyat untuk melawan kembalinya penjajah Belanda melalui tentara NICA, yang berakhir dengan pertempuran 10 November 1945 yang hingga kini diperingati sebagai Hari Pahlawan.</item>
         <item>Jenderal TNI (Purn.) Gatot Soebroto (lahir di Sumpiuh, Banyumas, Jawa Tengah, 10 Oktober 1907 – meninggal di Jakarta, 11 Juni 1962 pada umur 54 tahun) adalah tokoh perjuangan militer Indonesia dalam merebut kemerdekaan dan juga pahlawan nasional Indonesia. Ia dimakamkan di Ungaran, kabupaten Semarang.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad consectetur culpa ducimus eaque enim esse id ipsam laboriosam magnam minus molestias neque non placeat provident, quia, similique vel voluptatum.</item>
         <item>A war-hardened Crusader and his Moorish commander mount an audacious revolt against the corrupt English crown.</item>
         <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ducimus laboriosam laborum sed sequi. Aspernatur consequuntur corporis culpa cum enim, esse explicabo id inventore libero necessitatibus neque, nobis placeat temporibus!</item>
         <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus labore suscipit ullam? Ab aperiam beatae debitis delectus explicabo iure laudantium quos repellendus! Accusamus atque facilis in maxime reprehenderit, sapiente veniam.</item>
         <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
     </string-array>
-    <array name="array_foto">
+
+    <array name="array_photo">
         <item>@drawable/poster_a_star</item>
         <item>@drawable/poster_aquaman</item>
         <item>@drawable/poster_avengerinfinity</item>
@@ -70,4 +165,145 @@
         <item>@drawable/poster_themule</item>
         <item>@drawable/poster_venom</item>
     </array>
+
+    <!--TV Show Data-->
+    <string-array name="array_tv_show_title">
+        <item>Hunter X Hunter</item>1
+        <item>Shingeki No Kyojin</item>2
+        <item>Naruto</item>3
+        <item>Hataraku Maou-sama</item>4
+        <item>Relife</item>5
+        <item>Gintama</item>6
+        <item>Bleach</item>7
+        <item>Grand Blue</item>8
+        <item>Yu Gi Oh!</item>9
+        <item>Goblin Slayer</item>10
+        <item>Death Note</item>11
+        <item>Boku No Hero Academia</item>12
+        <item>Amagi Brillian Park</item>13
+        <item>Classroom of the elite</item>14
+        <item>Monogatari Series</item>15
+    </string-array>
+
+    <string-array name="array_tv_show_genre">
+        <item>Action, Advanture</item>
+        <item>Action, Thriller</item>
+        <item>Action</item>
+        <item>Action, Comedy</item>
+        <item>Romance</item>
+        <item>Comedy</item>
+        <item>Action, Fantasy</item>
+        <item>Comedy</item>
+        <item>Fantasy</item>
+        <item>Action, Fantasy</item>
+        <item>Thriller</item>
+        <item>Superhero, Action</item>
+        <item>Romance, Comedy</item>
+        <item>Drama</item>
+        <item>Mystery, Horror</item>
+
+    </string-array>
+
+    <string-array name="array_tv_show_duration">
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+        <item>24 min / episode</item>
+
+    </string-array>
+
+    <string-array name="array_tv_show_studio">
+        <item>MAD House</item>
+        <item>MAD House</item>
+        <item>Kyoto Animation</item>
+        <item>MAD House</item>
+        <item>Kyoto Animation</item>
+        <item>MAD House</item>
+        <item>Kyoto Animation</item>
+        <item>MAD House</item>
+        <item>Kyoto Animation</item>
+        <item>MAD House</item>
+        <item>Kyoto Animation</item>
+        <item>MAD House</item>
+        <item>Kyoto Animation</item>
+        <item>MAD House</item>
+        <item>Kyoto Animation</item>
+
+    </string-array>
+
+    <string-array name="array_tv_show_rating">
+        <item>E</item>
+        <item>A</item>
+        <item>E</item>
+        <item>PG</item>
+        <item>E</item>
+        <item>PG</item>
+        <item>E</item>
+        <item>A</item>
+        <item>E</item>
+        <item>A</item>
+        <item>PG</item>
+        <item>E</item>
+        <item>PG</item>
+        <item>PG</item>
+        <item>A</item>
+
+    </string-array>
+
+    <string-array name="array_description_tv_show">
+        <item>Hunter X Hunter (dibaca: Hunter Hunter) adalah adaptasi anime dari komik berjudul sama karya dari Mashiro Togashi. Pencipta dan sekaligus suami dari mangaka pencipta sailor moon itu dikenal dengan keahliannya dalam hal hiatus, </item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm.With a vast army at his disposal,Orm plans to conquer the remaining oceanic people and then the surface world.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Raden Mas Soewardi Soerjaningrat (EBI: Suwardi Suryaningrat, sejak 1922 menjadi Ki Hadjar Dewantara, EBI: Ki Hajar Dewantara, beberapa menuliskan bunyi bahasa Jawanya dengan Ki Hajar Dewantoro; lahir di Pakualaman, 2 Mei 1889 – meninggal di Yogyakarta, 26 April 1959 pada umur 69 tahun; selanjutnya disingkat sebagai "Soewardi" atau "KHD") adalah aktivis pergerakan kemerdekaan Indonesia, kolumnis, politisi, dan pelopor pendidikan bagi kaum pribumi Indonesia dari zaman penjajahan Belanda. Ia adalah pendiri Perguruan Taman Siswa, suatu lembaga pendidikan yang memberikan kesempatan bagi para pribumi untuk bisa memperoleh hak pendidikan seperti halnya para priyayi maupun orang-orang Belanda.</item>
+        <item>Dr.(H.C.) Ir. H. Soekarno (ER, EYD: Sukarno, nama lahir: Koesno Sosrodihardjo) (lahir di Surabaya, Jawa Timur, 6 Juni 1901 – meninggal di Jakarta, 21 Juni 1970 pada umur 69 tahun) adalah Presiden pertama Republik Indonesia yang menjabat pada periode 1945–1967. Ia memainkan peranan penting dalam memerdekakan bangsa Indonesia dari penjajahan Belanda. Ia adalah Proklamator Kemerdekaan Indonesia (bersama dengan Mohammad Hatta) yang terjadi pada tanggal 17 Agustus 1945. Soekarno adalah yang pertama kali mencetuskan konsep mengenai Pancasila sebagai dasar negara Indonesia dan ia sendiri yang menamainya.</item>
+        <item>Prof. Mr. Dr. Soepomo (Ejaan Soewandi: Supomo; lahir di Sukoharjo, Jawa Tengah, 22 Januari 1903 – meninggal di Jakarta, 12 September 1958 pada umur 55 tahun) adalah seorang pahlawan nasional Indonesia. Soepomo dikenal sebagai arsitek Undang-undang Dasar 1945, bersama dengan Muhammad Yamin dan Soekarno.</item>
+        <item>Tan Malaka atau Ibrahim gelar Datuk Sutan Malaka (lahir di Nagari Pandam Gadang, Suliki, Lima Puluh Kota, Sumatera Barat, 2 Juni 1897 – meninggal di Desa Selopanggung, Kediri, Jawa Timur, 21 Februari 1949 pada umur 51 tahun) adalah seorang pembela kemerdekaan Indonesia, tokoh Partai Komunis Indonesia, juga pendiri Partai Murba, dan merupakan salah satu Pahlawan Nasional Indonesia.</item>
+        <item>Salah seorang ulama dan khatib terkemuka di Masjid Besar Kasultanan Yogyakarta pada masa itu, dan ibu dari K.H. Ahmad Dahlan adalah puteri dari H. Ibrahim yang juga menjabat penghulu Kesultanan Ngayogyakarta Hadiningrat pada masa itu. KH. Ahmad Dahlan telah mempelopori kebangkitan ummat Islam untuk menyadari nasibnya sebagai bangsa terjajah yang masih harus belajar dan berbuat. </item>
+        <item>Jenderal TNI Anumerta Ahmad Yani (juga dieja Achmad Yani; lahir di Purworejo, Jawa Tengah, 19 Juni 1922 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 43 tahun) adalah komandan Tentara Nasional Indonesia Angkatan Darat, dan dibunuh oleh anggota Gerakan 30 September saat mencoba untuk menculik dia dari rumahnya.</item>
+        <item>Sutomo (lahir di Surabaya, Jawa Timur, 3 Oktober 1920 – meninggal di Padang Arafah, Arab Saudi, 7 Oktober 1981 pada umur 61 tahun) lebih dikenal dengan sapaan akrab oleh rakyat sebagai Bung Tomo, adalah pahlawan yang terkenal karena peranannya dalam membangkitkan semangat rakyat untuk melawan kembalinya penjajah Belanda melalui tentara NICA, yang berakhir dengan pertempuran 10 November 1945 yang hingga kini diperingati sebagai Hari Pahlawan.</item>
+        <item>Jenderal TNI (Purn.) Gatot Soebroto (lahir di Sumpiuh, Banyumas, Jawa Tengah, 10 Oktober 1907 – meninggal di Jakarta, 11 Juni 1962 pada umur 54 tahun) adalah tokoh perjuangan militer Indonesia dalam merebut kemerdekaan dan juga pahlawan nasional Indonesia. Ia dimakamkan di Ungaran, kabupaten Semarang.</item>
+        <item>A war-hardened Crusader and his Moorish commander mount an audacious revolt against the corrupt English crown.</item>
+        <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus labore suscipit ullam? Ab aperiam beatae debitis delectus explicabo iure laudantium quos repellendus! Accusamus atque facilis in maxime reprehenderit, sapiente veniam.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+    </string-array>
+
+    <array name="array_photo_tv_show">
+        <item>@drawable/poster_a_star</item>1
+        <item>@drawable/shingeki</item>2
+        <item>@drawable/naruto</item>3
+        <item>@drawable/hataraku</item>4
+        <item>@drawable/relife</item>5
+        <item>@drawable/gintama</item>6
+        <item>@drawable/bleach</item>7
+        <item>@drawable/grandblue</item>8
+        <item>@drawable/yugioh</item>9
+        <item>@drawable/goblinslayer</item>10
+        <item>@drawable/deathnote</item>11
+        <item>@drawable/deathnote</item>12
+        <item>@drawable/poster_marrypopins</item>13
+        <item>@drawable/classroom</item>14
+        <item>@drawable/mngtr3</item>15
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="movie">Movie</string>
+    <string name="tv_series">TV Series</string>
+    <string name="ini_detil_film">ini detil film</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="genre">Genre</string>
+    <string name="duration">Duration</string>
+    <string name="studio">Studio</string>
+    <string name="rating">Rating</string>
 </resources>
